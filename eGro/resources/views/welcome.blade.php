@@ -12,7 +12,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: #F8E71C;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -61,6 +61,10 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            mark {
+                background-color: #01AFD1;
+                color: white;
+            }
         </style>
     </head>
     <body>
@@ -78,9 +82,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <mark>e</mark>Gro
+                    <mark>e</mark>GrO
                 </div>
-
+                <h2>{{setting('site.title')}}<h2>
+                <img src="{{Voyager::image( setting('site.logo') ) }}" alt="logo">
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
