@@ -89,7 +89,7 @@
                 <h2>{{setting('site.title')}}<h2>
                 <img src="{{Voyager::image( setting('site.logo') ) }}" alt="logo">
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
+                    <a href="https://laravel.com/docs">Student Resources</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://nova.laravel.com">Nova</a>
